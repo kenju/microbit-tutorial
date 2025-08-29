@@ -2,17 +2,46 @@
 
 ## Introduction @unplugged
 
-First create a character to star in your game!
-
-![Image description](https://raw.githubusercontent.com/microsoft/pxt-tutorial-sample/master/images/enemies.gif)
+First create a simple dice to roll in your game! 🎲
 
 ## Step One
 
-Use the ``||custom:make random background||`` block to add a background color.
+Use the ``|led.plot|`` block to show rolling animations.
 
 ```blocks
-// @highlight
-custom.makeRandomBackground()
+function showRolling () {
+    plots = [
+    [0, 0],
+    [0, 1],
+    [0, 2],
+    [0, 3],
+    [0, 4],
+    [1, 4],
+    [2, 4],
+    [3, 4],
+    [4, 4],
+    [4, 3],
+    [4, 2],
+    [4, 1],
+    [4, 0],
+    [3, 0],
+    [2, 0],
+    [1, 0]
+    ]
+    for (let j = 0; j <= plots.length - 1; j++) {
+        plot = plots[j]
+        led.plot(plot[0], plot[1])
+        basic.pause(50)
+        led.unplot(plot[0], plot[1])
+    }
+}
+input.onGesture(Gesture.Shake, function () {
+    // show dice rolling animation
+    basic.clearScreen()
+    for (let index = 0; index < 2; index++) {
+        showRolling()
+    }
+})
 ```
 
 ## Step Two
