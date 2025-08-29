@@ -1,3 +1,11 @@
+# micro:bit tutorials
+
+This is a [tutorial](https://makecode.com/writing-docs/tutorials) for micro:bit.
+
+- [Secret Dice](https://makecode.microbit.org/#tutorial:https://github.com/kenju/microbit-tutorials/secret-dice)
+
+---
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
