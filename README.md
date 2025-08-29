@@ -2,7 +2,9 @@
 
 This is a [tutorial](https://makecode.com/writing-docs/tutorials) for micro:bit.
 
-- [Secret Dice](https://makecode.microbit.org/#tutorial:https://github.com/kenju/microbit-tutorials/secret-dice)
+- [First tutorial](https://makecode.microbit.org/#tutorial:https://github.com/kenju/microbit-tutorial/first-tutorial)
+- [Second tutorial](https://makecode.microbit.org/#tutorial:https://github.com/kenju/microbit-tutorial/second-tutorial)
+- [Secret Dice](https://makecode.microbit.org/#tutorial:https://github.com/kenju/microbit-tutorial/secret-dice)
 
 ---
 
