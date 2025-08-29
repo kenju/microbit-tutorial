@@ -4,7 +4,7 @@ This is a [tutorial](https://makecode.com/writing-docs/tutorials) for micro:bit.
 
 - [First tutorial](https://makecode.microbit.org/#tutorial:https://github.com/kenju/microbit-tutorial/first-tutorial)
 - [Second tutorial](https://makecode.microbit.org/#tutorial:https://github.com/kenju/microbit-tutorial/second-tutorial)
-- [Secret Dice](https://makecode.microbit.org/#tutorial:https://github.com/kenju/microbit-tutorial/secret-dice)
+- [Secret Dice](https://makecode.microbit.org/#tutorial:https://github.com/kenju/microbit-tutorial/tutorial-secret-dice)
 
 ---
 
